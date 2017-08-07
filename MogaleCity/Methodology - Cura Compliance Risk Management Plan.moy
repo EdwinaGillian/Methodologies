@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <MethodologyList>
 	<Methodology ID="2" OwnerID="3">
-		<CreatedDate>2017-08-04T07:25:51.582Z</CreatedDate>
-		<ModifiedDate>2017-08-04T07:25:51.669Z</ModifiedDate>
+		<CreatedDate>2017-08-07T08:22:26.286Z</CreatedDate>
+		<ModifiedDate>2017-08-07T08:22:26.347Z</ModifiedDate>
 		<Version>3.9.2.3</Version>
 		<Name>Cura Compliance Risk Management Plan</Name>
 		<Resource>urn:curasoftware-com:CuraComply_RiskManagementPlan</Resource>
@@ -12,7 +12,7 @@
 		<AssessTypes>
 			<AssessedEntityType ID="3" OwnerID="2">
 				<CreatedDate>2017-05-21T11:17:54.887Z</CreatedDate>
-				<ModifiedDate>2017-08-01T11:56:34.986Z</ModifiedDate>
+				<ModifiedDate>2017-08-07T08:22:05.713Z</ModifiedDate>
 				<Version>3.9.2.3</Version>
 				<Name>Section/Regulation</Name>
 				<Resource>urn:curasoftware-com:CuraComply_RiskManagementPlan</Resource>
@@ -2840,7 +2840,7 @@ Immediate implementation of corrective action plans</Description>
 				</ParamViews>
 			</AssessmentView>
 		</AssessViews>
-		<CreationDate>2017-08-04T07:25:51.582Z</CreationDate>
+		<CreationDate>2017-08-07T08:22:26.286Z</CreationDate>
 		<EntityTypes>
 			<EntityType ID="3" OwnerID="2">
 				<CreatedDate>2017-05-21T11:17:54.887Z</CreatedDate>
@@ -3097,7 +3097,7 @@ Immediate implementation of corrective action plans</Description>
 			</EntityType>
 			<EntityType ID="5" OwnerID="2">
 				<CreatedDate>2017-05-21T11:17:54.887Z</CreatedDate>
-				<ModifiedDate>2017-08-01T07:55:29.543Z</ModifiedDate>
+				<ModifiedDate>2017-08-07T08:22:07.674Z</ModifiedDate>
 				<Version>3.9.2.3</Version>
 				<Name>Chapter</Name>
 				<Description>Chapter</Description>
@@ -3126,6 +3126,19 @@ Immediate implementation of corrective action plans</Description>
 				<StartRefNr>001</StartRefNr>
 				<CurrRefNr>1000</CurrRefNr>
 				<RefNrOption>Auto Increment</RefNrOption>
+			</EntityType>
+			<EntityType>
+				<CreatedDate>2017-08-07T08:22:08.803Z</CreatedDate>
+				<ModifiedDate>2017-08-07T08:22:17.062Z</ModifiedDate>
+				<Version>3.9.2.3</Version>
+				<Name>Business Element</Name>
+				<Resource>urn:curasoftware-com:CuraComply_RiskManagementPlan</Resource>
+				<SourceID>6</SourceID>
+				<SortIndex>5</SortIndex>
+				<AssessmentTable>APBusEntity</AssessmentTable>
+				<GroupingName>Test</GroupingName>
+				<ImageIndex>10</ImageIndex>
+				<UniverseTable>ABusEntity</UniverseTable>
 			</EntityType>
 		</EntityTypes>
 		<MethodologyType>Static</MethodologyType>
