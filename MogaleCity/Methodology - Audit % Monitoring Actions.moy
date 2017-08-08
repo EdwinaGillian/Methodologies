@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MethodologyList>
+	<Methodology ID="3" OwnerID="4">
+		<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+		<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+		<Version>3.9.2.5</Version>
+		<Name>Audit / Monitoring Actions</Name>
+		<Description>Methodology to track management actions from Audit reports</Description>
+		<Resource>urn:curasoftware-com:AuditActions</Resource>
+		<SourceID>1</SourceID>
+		<NamespaceID>4</NamespaceID>
+		<ContextIsMandatory>false</ContextIsMandatory>
+		<AssessTypes>
+			<AssessedEntityType ID="5" OwnerID="3">
+				<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+				<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+				<Version>3.9.2.5</Version>
+				<Name>Audit / Monitoring Item</Name>
+				<Resource>urn:curasoftware-com:AuditActions</Resource>
+				<SourceID>1</SourceID>
+				<SortIndex>1</SortIndex>
+				<NamespaceID>4</NamespaceID>
+				<AssessmentTable>APRiskInst</AssessmentTable>
+				<Fields>
+					<Field ID="41" OwnerID="46">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Float10</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Date Action Completed</Caption>
+						<DataType>Date</DataType>
+						<EntityTypeID>7</EntityTypeID>
+					</Field>
+					<Field ID="42" OwnerID="47">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Float11</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Date of Audit Report</Caption>
+						<DataType>Date</DataType>
+						<EntityTypeID>7</EntityTypeID>
+					</Field>
+					<Field ID="47" OwnerID="52">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Float14</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Total Negative Findings</Caption>
+						<DataType>Float</DataType>
+						<EntityTypeID>7</EntityTypeID>
+					</Field>
+					<Field ID="43" OwnerID="48">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>LText11</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Mgt comments or Actions </Caption>
+						<DataType>Memo</DataType>
+						<EntityTypeID>7</EntityTypeID>
+					</Field>
+					<Field ID="44" OwnerID="49">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>LText12</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Progress / StatusComment</Caption>
+						<DataType>Memo</DataType>
+						<EntityTypeID>7</EntityTypeID>
+					</Field>
+					<Field ID="39" OwnerID="44">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Text1</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Audit Reference Nr</Caption>
+						<FieldLength>255</FieldLength>
+						<EntityTypeID>7</EntityTypeID>
+					</Field>
+					<Field ID="45" OwnerID="50">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Text12</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Status</Caption>
+						<DataType>Pick</DataType>
+						<FieldLength>255</FieldLength>
+						<EntityTypeID>7</EntityTypeID>
+					</Field>
+					<Field ID="40" OwnerID="45">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Text13</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Audited By</Caption>
+						<FieldLength>255</FieldLength>
+						<EntityTypeID>7</EntityTypeID>
+					</Field>
+					<Field ID="46" OwnerID="51">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Text14</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Supporting document</Caption>
+						<DataType>Url</DataType>
+						<FieldLength>255</FieldLength>
+						<EntityTypeID>7</EntityTypeID>
+					</Field>
+				</Fields>
+				<GroupingName>Audit / Monitoring Items</GroupingName>
+				<ImageIndex>18</ImageIndex>
+				<UniverseTable>APRiskInst</UniverseTable>
+				<StartRefNr>AA:00001</StartRefNr>
+				<CurrRefNr>AA:01805</CurrRefNr>
+				<RefNrOption>Auto Increment</RefNrOption>
+				<EntityType>
+					<Name>Management Action</Name>
+					<Resource>urn:curasoftware-com:AuditActions</Resource>
+					<SourceID>1</SourceID>
+					<SortIndex>1</SortIndex>
+				</EntityType>
+				<ParamTypes>
+					<ParamType ID="44" OwnerID="5">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Audit Reference Nr</Name>
+						<Description>Enter reference number as it appears on the Audit report</Description>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>1</SourceID>
+						<SortIndex>1</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>String</DataType>
+							<FieldName>Text1</FieldName>
+						</Datasource>
+						<Field>
+							<Name>Text1</Name>
+							<Caption>Audit Reference Nr</Caption>
+						</Field>
+					</ParamType>
+					<ParamType ID="47" OwnerID="5">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Date of Audit Report</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>11</SourceID>
+						<SortIndex>2</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Date</DataType>
+							<FieldName>Float11</FieldName>
+						</Datasource>
+						<Format>Date</Format>
+						<Field>
+							<Name>Float11</Name>
+							<Caption>Date of Audit Report</Caption>
+							<DataType>Date</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="52" OwnerID="5">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Total Negative Findings</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>16</SourceID>
+						<SortIndex>3</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Float</DataType>
+							<FieldName>Float14</FieldName>
+						</Datasource>
+						<Format>Float</Format>
+						<Field>
+							<Name>Float14</Name>
+							<Caption>Total Negative Findings</Caption>
+							<DataType>Float</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="45" OwnerID="5">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Audited By</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>17</SourceID>
+						<SortIndex>4</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>String</DataType>
+							<FieldName>Text13</FieldName>
+						</Datasource>
+						<Field>
+							<Name>Text13</Name>
+							<Caption>Audited By</Caption>
+						</Field>
+					</ParamType>
+					<ParamType ID="48" OwnerID="5">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Mgt comments or Actions </Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>5</SourceID>
+						<SortIndex>5</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Memo</DataType>
+							<FieldName>LText11</FieldName>
+						</Datasource>
+						<Format>Memo</Format>
+						<Field>
+							<Name>LText11</Name>
+							<Caption>Mgt comments or Actions </Caption>
+							<DataType>Memo</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="50" OwnerID="5">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Status</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>9</SourceID>
+						<SortIndex>6</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Pick</DataType>
+							<FieldName>Text12</FieldName>
+						</Datasource>
+						<Format>Pick</Format>
+						<Field>
+							<Name>Text12</Name>
+							<Caption>Status</Caption>
+							<DataType>Pick</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="49" OwnerID="5">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Progress / StatusComment</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>12</SourceID>
+						<SortIndex>7</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Memo</DataType>
+							<FieldName>LText12</FieldName>
+						</Datasource>
+						<Format>Memo</Format>
+						<Field>
+							<Name>LText12</Name>
+							<Caption>Progress / StatusComment</Caption>
+							<DataType>Memo</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="46" OwnerID="5">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Date Action Completed</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>10</SourceID>
+						<SortIndex>8</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Date</DataType>
+							<FieldName>Float10</FieldName>
+						</Datasource>
+						<Format>Date</Format>
+						<Field>
+							<Name>Float10</Name>
+							<Caption>Date Action Completed</Caption>
+							<DataType>Date</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="51" OwnerID="5">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Supporting document</Name>
+						<Description>Upload a supporting document</Description>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>15</SourceID>
+						<SortIndex>9</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Url</DataType>
+							<FieldName>Text14</FieldName>
+						</Datasource>
+						<Format>Url</Format>
+						<Field>
+							<Name>Text14</Name>
+							<Caption>Supporting document</Caption>
+							<DataType>Url</DataType>
+						</Field>
+					</ParamType>
+				</ParamTypes>
+			</AssessedEntityType>
+			<AssessedEntityType ID="6" OwnerID="3">
+				<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+				<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+				<Version>3.9.2.5</Version>
+				<Name>Finding</Name>
+				<Resource>urn:curasoftware-com:AuditActions</Resource>
+				<SourceID>2</SourceID>
+				<SortIndex>2</SortIndex>
+				<NamespaceID>4</NamespaceID>
+				<AssessmentTable>APRiskControlInst</AssessmentTable>
+				<Fields>
+					<Field ID="49" OwnerID="54">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Float1</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Finding - Date Completed</Caption>
+						<DataType>Date</DataType>
+						<EntityTypeID>8</EntityTypeID>
+					</Field>
+					<Field ID="54" OwnerID="59">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Float10</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Finding - Target Completion Date</Caption>
+						<DataType>Date</DataType>
+						<EntityTypeID>8</EntityTypeID>
+					</Field>
+					<Field ID="50" OwnerID="55">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>LText1</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Finding - Recommendations</Caption>
+						<DataType>Memo</DataType>
+						<EntityTypeID>8</EntityTypeID>
+					</Field>
+					<Field ID="51" OwnerID="56">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Text1</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Finding - Status</Caption>
+						<DataType>Pick</DataType>
+						<FieldLength>255</FieldLength>
+						<EntityTypeID>8</EntityTypeID>
+					</Field>
+					<Field ID="48" OwnerID="53">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Text10</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Finding - Completed By</Caption>
+						<FieldLength>255</FieldLength>
+						<EntityTypeID>8</EntityTypeID>
+					</Field>
+					<Field ID="52" OwnerID="57">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Text11</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Finding - Supporting Document 1</Caption>
+						<DataType>Url</DataType>
+						<FieldLength>255</FieldLength>
+						<EntityTypeID>8</EntityTypeID>
+					</Field>
+					<Field ID="53" OwnerID="58">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Text12</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<Caption>Finding - Supporting Document 2</Caption>
+						<DataType>Url</DataType>
+						<FieldLength>255</FieldLength>
+						<EntityTypeID>8</EntityTypeID>
+					</Field>
+				</Fields>
+				<GroupingName>Findings</GroupingName>
+				<ImageIndex>19</ImageIndex>
+				<UniverseTable>APRiskControlInst</UniverseTable>
+				<EntityType>
+					<Name>Finding</Name>
+					<Resource>urn:curasoftware-com:AuditActions</Resource>
+					<SourceID>2</SourceID>
+					<SortIndex>2</SortIndex>
+				</EntityType>
+				<ParamTypes>
+					<ParamType ID="55" OwnerID="6">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Finding - Recommendations</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>18</SourceID>
+						<SortIndex>1</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Memo</DataType>
+							<FieldName>LText1</FieldName>
+						</Datasource>
+						<Format>Memo</Format>
+						<Field>
+							<Name>LText1</Name>
+							<Caption>Finding - Recommendations</Caption>
+							<DataType>Memo</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="56" OwnerID="6">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Finding - Status</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>20</SourceID>
+						<SortIndex>2</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Pick</DataType>
+							<FieldName>Text1</FieldName>
+						</Datasource>
+						<Format>Pick</Format>
+						<Field>
+							<Name>Text1</Name>
+							<Caption>Finding - Status</Caption>
+							<DataType>Pick</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="59" OwnerID="6">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Finding - Target Completion Date</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>21</SourceID>
+						<SortIndex>3</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Date</DataType>
+							<FieldName>Float10</FieldName>
+						</Datasource>
+						<Format>Date</Format>
+						<Field>
+							<Name>Float10</Name>
+							<Caption>Finding - Target Completion Date</Caption>
+							<DataType>Date</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="54" OwnerID="6">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Finding - Date Completed</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>19</SourceID>
+						<SortIndex>4</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Date</DataType>
+							<FieldName>Float1</FieldName>
+						</Datasource>
+						<Format>Date</Format>
+						<Field>
+							<Name>Float1</Name>
+							<Caption>Finding - Date Completed</Caption>
+							<DataType>Date</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="53" OwnerID="6">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Finding - Completed By</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>22</SourceID>
+						<SortIndex>5</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>String</DataType>
+							<FieldName>Text10</FieldName>
+						</Datasource>
+						<Field>
+							<Name>Text10</Name>
+							<Caption>Finding - Completed By</Caption>
+						</Field>
+					</ParamType>
+					<ParamType ID="57" OwnerID="6">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Finding - Supporting Document 1</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>23</SourceID>
+						<SortIndex>6</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Url</DataType>
+							<FieldName>Text11</FieldName>
+						</Datasource>
+						<Format>Url</Format>
+						<Field>
+							<Name>Text11</Name>
+							<Caption>Finding - Supporting Document 1</Caption>
+							<DataType>Url</DataType>
+						</Field>
+					</ParamType>
+					<ParamType ID="58" OwnerID="6">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Finding - Supporting Document 2</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>24</SourceID>
+						<SortIndex>7</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<Datasource>
+							<DataType>Url</DataType>
+							<FieldName>Text12</FieldName>
+						</Datasource>
+						<Format>Url</Format>
+						<Field>
+							<Name>Text12</Name>
+							<Caption>Finding - Supporting Document 2</Caption>
+							<DataType>Url</DataType>
+						</Field>
+					</ParamType>
+				</ParamTypes>
+			</AssessedEntityType>
+		</AssessTypes>
+		<AssessViews>
+			<AssessmentView ID="3" OwnerID="3">
+				<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+				<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+				<Version>3.9.2.5</Version>
+				<Name>Custom</Name>
+				<Resource>urn:curasoftware-com:AuditActions</Resource>
+				<SourceID>1</SourceID>
+				<SortIndex>1</SortIndex>
+				<NamespaceID>4</NamespaceID>
+				<ParamViews>
+					<ParamView ID="43" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>1</SourceID>
+						<SortIndex>1</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<HighColor>0</HighColor>
+						<LowColor>0</LowColor>
+						<ParamType>
+							<Name>Audit Reference Nr</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>1</SourceID>
+						</ParamType>
+						<RangeHigh>0</RangeHigh>
+					</ParamView>
+					<ParamView ID="45" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>11</SourceID>
+						<SortIndex>2</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<ParamType>
+							<Name>Date of Audit Report</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>11</SourceID>
+							<Format>Date</Format>
+						</ParamType>
+					</ParamView>
+					<ParamView ID="57" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>5</SourceID>
+						<SortIndex>3</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<ParamType>
+							<Name>Mgt comments or Actions </Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>5</SourceID>
+							<Format>Memo</Format>
+						</ParamType>
+					</ParamView>
+					<ParamView ID="58" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>9</SourceID>
+						<SortIndex>4</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<HighColor>0</HighColor>
+						<Lookups>
+							<ParamLookup ID="76" OwnerID="58">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>In Progress</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>1</SourceID>
+								<NamespaceID>4</NamespaceID>
+								<RelValue>1</RelValue>
+							</ParamLookup>
+							<ParamLookup ID="77" OwnerID="58">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Not started</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>2</SourceID>
+								<NamespaceID>4</NamespaceID>
+								<RelValue>2</RelValue>
+							</ParamLookup>
+							<ParamLookup ID="78" OwnerID="58">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Completed</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>3</SourceID>
+								<NamespaceID>4</NamespaceID>
+								<RelValue>3</RelValue>
+							</ParamLookup>
+						</Lookups>
+						<LowColor>0</LowColor>
+						<ParamType>
+							<Name>Status</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>9</SourceID>
+							<Format>Pick</Format>
+						</ParamType>
+						<RangeHigh>3</RangeHigh>
+					</ParamView>
+					<ParamView ID="46" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>12</SourceID>
+						<SortIndex>5</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<ParamType>
+							<Name>Progress / StatusComment</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>12</SourceID>
+							<Format>Memo</Format>
+						</ParamType>
+					</ParamView>
+					<ParamView ID="44" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>10</SourceID>
+						<SortIndex>6</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<ParamType>
+							<Name>Date Action Completed</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>10</SourceID>
+							<Format>Date</Format>
+						</ParamType>
+					</ParamView>
+					<ParamView ID="47" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>15</SourceID>
+						<SortIndex>7</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<ParamType>
+							<Name>Supporting document</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>15</SourceID>
+							<Format>Url</Format>
+						</ParamType>
+					</ParamView>
+					<ParamView ID="48" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>16</SourceID>
+						<SortIndex>8</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<HighColor>15389113</HighColor>
+						<LowColor>13743257</LowColor>
+						<ParamType>
+							<Name>Total Negative Findings</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>16</SourceID>
+							<Format>Float</Format>
+						</ParamType>
+						<RangeHigh>20</RangeHigh>
+					</ParamView>
+					<ParamView ID="49" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>17</SourceID>
+						<SortIndex>9</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<HighColor>0</HighColor>
+						<LowColor>0</LowColor>
+						<ParamType>
+							<Name>Audited By</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>17</SourceID>
+						</ParamType>
+						<RangeHigh>0</RangeHigh>
+					</ParamView>
+					<ParamView ID="50" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>18</SourceID>
+						<SortIndex>10</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<ParamType>
+							<Name>Finding - Recommendations</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>18</SourceID>
+							<Format>Memo</Format>
+						</ParamType>
+					</ParamView>
+					<ParamView ID="51" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>19</SourceID>
+						<SortIndex>11</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<HighColor>0</HighColor>
+						<Lookups>
+							<ParamLookup ID="73" OwnerID="51">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>In Progress</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>4</SourceID>
+								<NamespaceID>4</NamespaceID>
+								<RelValue>1</RelValue>
+							</ParamLookup>
+							<ParamLookup ID="74" OwnerID="51">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Not started</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>5</SourceID>
+								<NamespaceID>4</NamespaceID>
+								<RelValue>2</RelValue>
+							</ParamLookup>
+							<ParamLookup ID="75" OwnerID="51">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Completed</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>6</SourceID>
+								<NamespaceID>4</NamespaceID>
+								<RelValue>3</RelValue>
+							</ParamLookup>
+						</Lookups>
+						<LowColor>0</LowColor>
+						<ParamType>
+							<Name>Finding - Status</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>20</SourceID>
+							<Format>Pick</Format>
+						</ParamType>
+						<RangeHigh>3</RangeHigh>
+					</ParamView>
+					<ParamView ID="52" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>20</SourceID>
+						<SortIndex>12</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<ParamType>
+							<Name>Finding - Target Completion Date</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>21</SourceID>
+							<Format>Date</Format>
+						</ParamType>
+					</ParamView>
+					<ParamView ID="53" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>21</SourceID>
+						<SortIndex>13</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<ParamType>
+							<Name>Finding - Date Completed</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>19</SourceID>
+							<Format>Date</Format>
+						</ParamType>
+					</ParamView>
+					<ParamView ID="54" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>22</SourceID>
+						<SortIndex>14</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<HighColor>0</HighColor>
+						<LowColor>0</LowColor>
+						<ParamType>
+							<Name>Finding - Completed By</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>22</SourceID>
+						</ParamType>
+						<RangeHigh>0</RangeHigh>
+					</ParamView>
+					<ParamView ID="55" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>23</SourceID>
+						<SortIndex>15</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<ParamType>
+							<Name>Finding - Supporting Document 1</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>23</SourceID>
+							<Format>Url</Format>
+						</ParamType>
+					</ParamView>
+					<ParamView ID="56" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>24</SourceID>
+						<SortIndex>16</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<ParamType>
+							<Name>Finding - Supporting Document 2</Name>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>24</SourceID>
+							<Format>Url</Format>
+						</ParamType>
+					</ParamView>
+				</ParamViews>
+			</AssessmentView>
+		</AssessViews>
+		<CreationDate>2016-11-01T13:14:00.493Z</CreationDate>
+		<EntityTypes>
+			<EntityType ID="7" OwnerID="3">
+				<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+				<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+				<Version>3.9.2.5</Version>
+				<Name>Management Action</Name>
+				<Resource>urn:curasoftware-com:AuditActions</Resource>
+				<SourceID>1</SourceID>
+				<SortIndex>1</SortIndex>
+				<NamespaceID>4</NamespaceID>
+				<AssessmentTable>APRisk</AssessmentTable>
+				<GroupingName>Management Actions</GroupingName>
+				<ImageIndex>18</ImageIndex>
+				<UniverseTable>ARisk</UniverseTable>
+				<StartRefNr>AA:00001</StartRefNr>
+				<CurrRefNr>AA:01826</CurrRefNr>
+				<RefNrOption>Auto Increment</RefNrOption>
+			</EntityType>
+			<EntityType ID="8" OwnerID="3">
+				<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+				<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+				<Version>3.9.2.5</Version>
+				<Name>Finding</Name>
+				<Resource>urn:curasoftware-com:AuditActions</Resource>
+				<SourceID>2</SourceID>
+				<SortIndex>2</SortIndex>
+				<NamespaceID>4</NamespaceID>
+				<AssessmentTable>APControl</AssessmentTable>
+				<GroupingName>Findings</GroupingName>
+				<ImageIndex>19</ImageIndex>
+				<UniverseTable>AControl</UniverseTable>
+			</EntityType>
+		</EntityTypes>
+		<Workflows>
+			<Workflow ID="3" OwnerID="3">
+				<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+				<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+				<Version>3.9.2.5</Version>
+				<Name>Management Workflow</Name>
+				<Resource>urn:curasoftware-com:AuditActions</Resource>
+				<SourceID>3</SourceID>
+				<SortIndex>3</SortIndex>
+				<NamespaceID>4</NamespaceID>
+				<Default>true</Default>
+				<Steps>
+					<Step ID="15" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Audit / Monitoring Details</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>13</SourceID>
+						<SortIndex>1</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<DefaultWorkflowRestriction>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<Restriction ID="4">
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<Code>Unrestricted</Code>
+							</Restriction>
+						</DefaultWorkflowRestriction>
+						<StepType>Custom</StepType>
+						<AssessedEntityType ID="5">
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>1</SourceID>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</AssessedEntityType>
+						<Contains>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</Contains>
+						<Items>
+							<Item ID="60" OwnerID="15">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Audit Reference Nr</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>12</SourceID>
+								<SortIndex>1</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="44" OwnerID="5">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Audit Reference Nr</Name>
+									<Description>Enter reference number as it appears on the Audit report</Description>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>1</SourceID>
+									<SortIndex>1</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>String</DataType>
+										<FieldName>Text1</FieldName>
+									</Datasource>
+									<Field ID="39" OwnerID="44">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>Text1</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Audit Reference Nr</Caption>
+										<FieldLength>255</FieldLength>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="61" OwnerID="15">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Date of Audit Report</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>13</SourceID>
+								<SortIndex>2</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="47" OwnerID="5">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Date of Audit Report</Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>11</SourceID>
+									<SortIndex>2</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>Date</DataType>
+										<FieldName>Float11</FieldName>
+									</Datasource>
+									<Format>Date</Format>
+									<Field ID="42" OwnerID="47">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>Float11</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Date of Audit Report</Caption>
+										<DataType>Date</DataType>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="64" OwnerID="15">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Audited By</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>42</SourceID>
+								<SortIndex>3</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="45" OwnerID="5">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Audited By</Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>17</SourceID>
+									<SortIndex>4</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>String</DataType>
+										<FieldName>Text13</FieldName>
+									</Datasource>
+									<Field ID="40" OwnerID="45">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>Text13</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Audited By</Caption>
+										<FieldLength>255</FieldLength>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="62" OwnerID="15">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Supporting document</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>26</SourceID>
+								<SortIndex>4</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="51" OwnerID="5">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Supporting document</Name>
+									<Description>Upload a supporting document</Description>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>15</SourceID>
+									<SortIndex>9</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>Url</DataType>
+										<FieldName>Text14</FieldName>
+									</Datasource>
+									<Format>Url</Format>
+									<Field ID="46" OwnerID="51">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>Text14</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Supporting document</Caption>
+										<DataType>Url</DataType>
+										<FieldLength>255</FieldLength>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="63" OwnerID="15">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Finding Detail &#38; Recommendations</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>33</SourceID>
+								<SortIndex>5</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Control List</ItemType>
+							</Item>
+						</Items>
+					</Step>
+					<Step ID="18" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Finding Detail &#38; Recommendations</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>17</SourceID>
+						<SortIndex>2</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<DefaultWorkflowRestriction>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<Restriction ID="4">
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<Code>Unrestricted</Code>
+							</Restriction>
+						</DefaultWorkflowRestriction>
+						<StepType>Custom</StepType>
+						<AssessedEntityType>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</AssessedEntityType>
+						<Contains>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</Contains>
+						<Items>
+							<Item ID="70" OwnerID="18">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Recommendations</Name>
+								<Description>List all recommendations in this memo box</Description>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>34</SourceID>
+								<SortIndex>1</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="55" OwnerID="6">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Finding - Recommendations</Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>18</SourceID>
+									<SortIndex>1</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>Memo</DataType>
+										<FieldName>LText1</FieldName>
+									</Datasource>
+									<Format>Memo</Format>
+									<Field ID="50" OwnerID="55">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>LText1</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Finding - Recommendations</Caption>
+										<DataType>Memo</DataType>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="72" OwnerID="18">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Status</Name>
+								<Description>Status on resolution of the finding.</Description>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>36</SourceID>
+								<SortIndex>2</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="56" OwnerID="6">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Finding - Status</Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>20</SourceID>
+									<SortIndex>2</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>Pick</DataType>
+										<FieldName>Text1</FieldName>
+									</Datasource>
+									<Format>Pick</Format>
+									<Field ID="51" OwnerID="56">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>Text1</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Finding - Status</Caption>
+										<DataType>Pick</DataType>
+										<FieldLength>255</FieldLength>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="75" OwnerID="18">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Date Completed</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>41</SourceID>
+								<SortIndex>3</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="54" OwnerID="6">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Finding - Date Completed</Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>19</SourceID>
+									<SortIndex>4</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>Date</DataType>
+										<FieldName>Float1</FieldName>
+									</Datasource>
+									<Format>Date</Format>
+									<Field ID="49" OwnerID="54">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>Float1</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Finding - Date Completed</Caption>
+										<DataType>Date</DataType>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="71" OwnerID="18">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Completed By</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>35</SourceID>
+								<SortIndex>4</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="53" OwnerID="6">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Finding - Completed By</Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>22</SourceID>
+									<SortIndex>5</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>String</DataType>
+										<FieldName>Text10</FieldName>
+									</Datasource>
+									<Field ID="48" OwnerID="53">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>Text10</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Finding - Completed By</Caption>
+										<FieldLength>255</FieldLength>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="73" OwnerID="18">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Supporting Document 1</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>37</SourceID>
+								<SortIndex>5</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="57" OwnerID="6">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Finding - Supporting Document 1</Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>23</SourceID>
+									<SortIndex>6</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>Url</DataType>
+										<FieldName>Text11</FieldName>
+									</Datasource>
+									<Format>Url</Format>
+									<Field ID="52" OwnerID="57">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>Text11</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Finding - Supporting Document 1</Caption>
+										<DataType>Url</DataType>
+										<FieldLength>255</FieldLength>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="74" OwnerID="18">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Supporting Document 2</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>38</SourceID>
+								<SortIndex>6</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="58" OwnerID="6">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Finding - Supporting Document 2</Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>24</SourceID>
+									<SortIndex>7</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>Url</DataType>
+										<FieldName>Text12</FieldName>
+									</Datasource>
+									<Format>Url</Format>
+									<Field ID="53" OwnerID="58">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>Text12</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Finding - Supporting Document 2</Caption>
+										<DataType>Url</DataType>
+										<FieldLength>255</FieldLength>
+									</Field>
+								</Parameter>
+							</Item>
+						</Items>
+					</Step>
+					<Step ID="17" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Management Actions</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>16</SourceID>
+						<SortIndex>3</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<DefaultWorkflowRestriction>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<Restriction ID="4">
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<Code>Unrestricted</Code>
+							</Restriction>
+						</DefaultWorkflowRestriction>
+						<StepType>Custom</StepType>
+						<AssessedEntityType ID="5">
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>1</SourceID>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</AssessedEntityType>
+						<Contains>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</Contains>
+						<Items>
+							<Item ID="66" OwnerID="17">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Management Comments or Action</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>28</SourceID>
+								<SortIndex>1</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="48" OwnerID="5">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Mgt comments or Actions </Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>5</SourceID>
+									<SortIndex>5</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>Memo</DataType>
+										<FieldName>LText11</FieldName>
+									</Datasource>
+									<Format>Memo</Format>
+									<Field ID="43" OwnerID="48">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>LText11</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Mgt comments or Actions</Caption>
+										<DataType>Memo</DataType>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="67" OwnerID="17">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Status</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>29</SourceID>
+								<SortIndex>2</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="50" OwnerID="5">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Status</Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>9</SourceID>
+									<SortIndex>6</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>Pick</DataType>
+										<FieldName>Text12</FieldName>
+									</Datasource>
+									<Format>Pick</Format>
+									<Field ID="45" OwnerID="50">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>Text12</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Status</Caption>
+										<DataType>Pick</DataType>
+										<FieldLength>255</FieldLength>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="68" OwnerID="17">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Progress / Status / Comment</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>30</SourceID>
+								<SortIndex>3</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Parameter</ItemType>
+								<Parameter ID="49" OwnerID="5">
+									<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+									<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+									<Version>3.9.2.5</Version>
+									<Name>Progress / StatusComment</Name>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<SourceID>12</SourceID>
+									<SortIndex>7</SortIndex>
+									<NamespaceID>4</NamespaceID>
+									<Datasource>
+										<DataType>Memo</DataType>
+										<FieldName>LText12</FieldName>
+									</Datasource>
+									<Format>Memo</Format>
+									<Field ID="44" OwnerID="49">
+										<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+										<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+										<Version>3.9.2.5</Version>
+										<Name>LText12</Name>
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Caption>Progress / StatusComment</Caption>
+										<DataType>Memo</DataType>
+									</Field>
+								</Parameter>
+							</Item>
+							<Item ID="69" OwnerID="17">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Tasks</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>32</SourceID>
+								<SortIndex>4</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Task List</ItemType>
+							</Item>
+						</Items>
+					</Step>
+					<Step ID="16" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Contacts</Name>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>14</SourceID>
+						<SortIndex>4</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<DefaultWorkflowRestriction>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<Restriction ID="4">
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<Code>Unrestricted</Code>
+							</Restriction>
+						</DefaultWorkflowRestriction>
+						<StepType>Contact List</StepType>
+						<AssessedEntityType>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</AssessedEntityType>
+						<Contains>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</Contains>
+						<Items>
+							<Item ID="65" OwnerID="16">
+								<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Contacts</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>24</SourceID>
+								<SortIndex>1</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Contact List</ItemType>
+							</Item>
+						</Items>
+					</Step>
+					<Step ID="19" OwnerID="3">
+						<CreatedDate>2017-07-28T08:55:40.217Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<Name>Links</Name>
+						<Description>This step is for the links.</Description>
+						<Resource>urn:curasoftware-com:AuditActions</Resource>
+						<SourceID>18</SourceID>
+						<SortIndex>5</SortIndex>
+						<NamespaceID>4</NamespaceID>
+						<DefaultWorkflowRestriction>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<Restriction ID="4">
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<Code>Unrestricted</Code>
+							</Restriction>
+						</DefaultWorkflowRestriction>
+						<StepType>Linked Item List</StepType>
+						<AssessedEntityType>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</AssessedEntityType>
+						<Contains>
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</Contains>
+						<Items>
+							<Item ID="78" OwnerID="19">
+								<CreatedDate>2017-07-28T08:55:40.217Z</CreatedDate>
+								<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+								<Version>3.9.2.5</Version>
+								<Name>Links</Name>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+								<SourceID>43</SourceID>
+								<SortIndex>1</SortIndex>
+								<NamespaceID>4</NamespaceID>
+								<DefaultWorkflowRestriction>
+									<Resource>urn:curasoftware-com:AuditActions</Resource>
+									<Restriction ID="4">
+										<Resource>urn:curasoftware-com:AuditActions</Resource>
+										<Code>Unrestricted</Code>
+									</Restriction>
+								</DefaultWorkflowRestriction>
+								<ItemType>Linked Item List</ItemType>
+							</Item>
+						</Items>
+					</Step>
+				</Steps>
+				<DefaultActions>
+					<Action ID="5" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<AssessedEntityType ID="5">
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>1</SourceID>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</AssessedEntityType>
+					</Action>
+					<Action ID="6" OwnerID="3">
+						<CreatedDate>2017-05-21T11:18:03.950Z</CreatedDate>
+						<ModifiedDate>2017-07-28T08:55:40.217Z</ModifiedDate>
+						<Version>3.9.2.5</Version>
+						<AssessedEntityType ID="6">
+							<Resource>urn:curasoftware-com:AuditActions</Resource>
+							<SourceID>2</SourceID>
+							<EntityType>
+								<Resource>urn:curasoftware-com:AuditActions</Resource>
+							</EntityType>
+						</AssessedEntityType>
+					</Action>
+				</DefaultActions>
+			</Workflow>
+		</Workflows>
+	</Methodology>
+</MethodologyList>
